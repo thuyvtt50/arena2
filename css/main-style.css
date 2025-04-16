@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body
+{
+	 background-color: #7FB7C6; 
+	color:#666; 
+	font-family: Helvetica, Arial, 'sans-serif' ; 
+	font-size: 16px;
+	margin-left: 10%
+}
+*{ box-sizing: border-box} 
+/* khong noi rong hon khi them padding*/
+.logo{ float: left; margin-right: 20px}
+.clearfix{ clear: both; height: 0}
+.w-50{ 
+	width: 50%; 
+	float: left; 
+	padding: 20px;
+	border: solid blue
+}
+.img-100{ width: 100%; height: auto}
+
+/*-- ----------------bat dau style cho menu---------------------*/
+nav{ margin: 20px 0}
+nav a
+{
+	background-color: #F1A70E;
+	color: #FFFFFF; 
+	padding: 5px 15px;
+	text-decoration: none
+}
+nav a:hover
+{
+	background-color:indianred
+	
+}
+*{scroll-behavior: smooth}
+p.chia3cot
+{
+	column-count: 3;
+	column-rule: 1px red groove;
+	text-align: justify;
+	column-gap: 100px
+}
+#gioithieu-doitac
+{
+	background: #eee; padding: 50px 0
+}
+h1,h2,h3,h4,h5,h6 
+{
+	font-family: 'Playfair Display', serif; color: black
+}
+h1{ font-size: 30px}
+.table-style
+{
+	background: rgb(46,213,144);
+background: linear-gradient(90deg, rgba(46,213,144,1) 0%, rgba(214,152,215,1) 100%);
+	color: #fff;
+	border: 1px solid blue;
+	height: 150px;
+	width:80%
+}
+.bg-primary{	background: rgb(46,213,144);
+background: linear-gradient(90deg, rgba(46,213,144,1) 0%, rgba(214,152,215,1) 100%);}
+.bg-secondary{ background:pink}
+span{color: #F621D4}
+
